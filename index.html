@@ -8,14 +8,17 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
 
+    <!-- Boostrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
     <title>My Portfolio | Alfan Rosyadi</title>
   </head>
-  <body>
-    <!-- Nawbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info shadow-sm fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Alfan Rosyadi</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,16 +27,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -71,19 +74,13 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,128L13.3,138.7C26.7,149,53,171,80,176C106.7,181,133,171,160,138.7C186.7,107,213,53,240,58.7C266.7,64,293,128,320,165.3C346.7,203,373,213,400,202.7C426.7,192,453,160,480,133.3C506.7,107,533,85,560,64C586.7,43,613,21,640,42.7C666.7,64,693,128,720,144C746.7,160,773,128,800,106.7C826.7,85,853,75,880,64C906.7,53,933,43,960,64C986.7,85,1013,139,1040,154.7C1066.7,171,1093,149,1120,138.7C1146.7,128,1173,128,1200,133.3C1226.7,139,1253,149,1280,165.3C1306.7,181,1333,203,1360,197.3C1386.7,192,1413,160,1427,144L1440,128L1440,320L1426.7,320C1413.3,320,1387,320,1360,320C1333.3,320,1307,320,1280,320C1253.3,320,1227,320,1200,320C1173.3,320,1147,320,1120,320C1093.3,320,1067,320,1040,320C1013.3,320,987,320,960,320C933.3,320,907,320,880,320C853.3,320,827,320,800,320C773.3,320,747,320,720,320C693.3,320,667,320,640,320C613.3,320,587,320,560,320C533.3,320,507,320,480,320C453.3,320,427,320,400,320C373.3,320,347,320,320,320C293.3,320,267,320,240,320C213.3,320,187,320,160,320C133.3,320,107,320,80,320C53.3,320,27,320,13,320L0,320Z"
-        ></path>
-      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#66ffff" fill-opacity="1" d="M0,160L18.5,133.3C36.9,107,74,53,111,69.3C147.7,85,185,171,222,192C258.5,213,295,171,332,170.7C369.2,171,406,213,443,240C480,267,517,277,554,256C590.8,235,628,181,665,165.3C701.5,149,738,171,775,165.3C812.3,160,849,128,886,144C923.1,160,960,224,997,240C1033.8,256,1071,224,1108,229.3C1144.6,235,1182,277,1218,266.7C1255.4,256,1292,192,1329,165.3C1366.2,139,1403,149,1422,154.7L1440,160L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir About -->
     <!-- Projects -->
     <section id="projects">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center mb-3">
           <div class="col">
             <h2>My Projects</h2>
           </div>
@@ -131,8 +128,51 @@
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,96L16,96C32,96,64,96,96,117.3C128,139,160,181,192,181.3C224,181,256,139,288,106.7C320,75,352,53,384,90.7C416,128,448,224,480,234.7C512,245,544,171,576,117.3C608,64,640,32,672,21.3C704,11,736,21,768,53.3C800,85,832,139,864,165.3C896,192,928,192,960,165.3C992,139,1024,85,1056,101.3C1088,117,1120,203,1152,202.7C1184,203,1216,117,1248,101.3C1280,85,1312,139,1344,165.3C1376,192,1408,192,1424,192L1440,192L1440,320L1424,320C1408,320,1376,320,1344,320C1312,320,1280,320,1248,320C1216,320,1184,320,1152,320C1120,320,1088,320,1056,320C1024,320,992,320,960,320C928,320,896,320,864,320C832,320,800,320,768,320C736,320,704,320,672,320C640,320,608,320,576,320C544,320,512,320,480,320C448,320,416,320,384,320C352,320,320,320,288,320C256,320,224,320,192,320C160,320,128,320,96,320C64,320,32,320,16,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- Akhir Project -->
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0dcaf0" fill-opacity="1" d="M0,192L48,170.7C96,149,192,107,288,96C384,85,480,107,576,138.7C672,171,768,213,864,240C960,267,1056,277,1152,256C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+     </section>
+    <!-- Akhir Contact -->
+    <!-- Footer -->
+    <footer class="bg-info text-white text-center pb-5">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/fromsky30/" class="text-white fw-bold">Alfan Rosyadi</a></p>
+    </footer>
+    <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </body>
 </html>
